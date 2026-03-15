@@ -1,0 +1,14 @@
+fastapi[all]
+langchain
+langchain-openai
+langchain-core
+pydantic
+python-dotenv
+langchain-community
+docx2txt
+langchain-text-splitters
+faiss-cpu
+uvicorn
+langchain_classic
+pinecone
+langchain_pinecone

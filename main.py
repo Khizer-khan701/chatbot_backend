@@ -37,6 +37,10 @@ def get_chain():
     app.state.rag_chains=chain
     return chain
 
+@app.get("/")
+def home():
+    return {"message": "API running"}
+
 @app.post("/chatbot")
 def chatbot_api(payload:Chatbot,request:Request):
     message=(payload.message or "").strip()
